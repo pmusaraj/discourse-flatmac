@@ -24,26 +24,35 @@
   --d-button-border-radius: 999px;
   --d-input-border-radius: 10px;
   --d-nav-pill-border-radius: 999px;
-  --d-nav-bg-color: var(--primary-very-low);
-  --d-nav-bg-color--hover: var(--primary-low);
-  --d-nav-bg-color--active: var(--primary-low);
+
+  --flatmac-bg-subtle: var(--primary-very-low);
+  --flatmac-bg-strong: var(--primary-low);
+  --flatmac-border-subtle: var(--primary-low);
+
+  --d-nav-bg-color: var(--flatmac-bg-subtle);
+  --d-nav-bg-color--hover: var(--flatmac-bg-strong);
+  --d-nav-bg-color--active: var(--flatmac-bg-strong);
   --d-nav-color: var(--primary);
   --d-nav-color--hover: var(--primary);
   --d-nav-color--active: var(--primary);
   --d-nav-border-color--active: transparent;
   --d-nav-underline-height: 0;
 
-  --d-hover: var(--primary-very-low);
+  --d-hover: var(--flatmac-bg-subtle);
+  --d-selected: var(--flatmac-bg-strong);
+  --d-selected-hover: var(--flatmac-bg-strong);
   --d-selected-text-color: var(--primary);
-  --content-border-color: var(--primary-low);
-  --input-border-color: var(--primary-300);
-  --table-border-color: var(--primary-low);
+  --d-unread-notification-background: var(--flatmac-bg-strong);
+  --d-sidebar-highlight-background: var(--flatmac-bg-subtle);
+  --content-border-color: var(--flatmac-border-subtle);
+  --input-border-color: var(--flatmac-border-subtle);
+  --table-border-color: var(--flatmac-border-subtle);
 
-  --d-button-default-bg-color: var(--primary-very-low);
+  --d-button-default-bg-color: var(--flatmac-bg-subtle);
   --d-button-default-text-color: var(--primary);
   --d-button-default-icon-color: var(--primary);
   --d-button-default-border: 1px solid transparent;
-  --d-button-default-bg-color--hover: var(--primary-low);
+  --d-button-default-bg-color--hover: var(--flatmac-bg-strong);
   --d-button-default-text-color--hover: var(--primary);
   --d-button-default-icon-color--hover: var(--primary);
   --d-button-default-border--hover: 1px solid transparent;
