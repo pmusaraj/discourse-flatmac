@@ -1,0 +1,33 @@
+{
+  "name": "flatmac",
+  "component": false,
+  "authors": "Penar Musaraj",
+  "about_url": null,
+  "license_url": "https://github.com/kaspernordkvist/uncut_sans/blob/main/LICENSE.txt",
+  "theme_version": "1.0.0",
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "uncut_sans_regular": "assets/UncutSans-Regular.woff2",
+    "uncut_sans_bold": "assets/UncutSans-Bold.woff2"
+  },
+  "color_schemes": {
+    "flatmac": {
+      "primary": "000000",
+      "secondary": "FFFFFF",
+      "tertiary": "000000",
+      "quaternary": "F2F2F2",
+      "header_background": "FFFFFF",
+      "header_primary": "000000",
+      "highlight": "EDEDED",
+      "selected": "E8E8E8",
+      "hover": "F7F7F7",
+      "danger": "B00020",
+      "success": "1F7A1F",
+      "love": "B00020"
+    }
+  },
+  "modifiers": {
+    "only_theme_color_schemes": true
+  }
+}

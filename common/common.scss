@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Uncut Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url($uncut_sans_regular) format("woff2");
+}
+
+@font-face {
+  font-family: "Uncut Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url($uncut_sans_bold) format("woff2");
+}
+
+:root {
+  --font-family: "Uncut Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --heading-font-family: var(--font-family);
+  --heading-font-weight: 700;
+
+  --d-border-radius: 8px;
+  --d-border-radius-large: 12px;
+  --d-button-border-radius: 999px;
+  --d-input-border-radius: 10px;
+  --d-nav-pill-border-radius: 999px;
+
+  --d-hover: var(--primary-very-low);
+  --d-selected-text-color: var(--primary);
+  --content-border-color: var(--primary-low);
+  --input-border-color: var(--primary-300);
+  --table-border-color: var(--primary-low);
+
+  --d-button-default-bg-color: var(--secondary);
+  --d-button-default-text-color: var(--primary);
+  --d-button-default-icon-color: var(--primary);
+  --d-button-default-border: 1px solid var(--primary-low-mid);
+  --d-button-default-bg-color--hover: var(--primary-very-low);
+  --d-button-default-text-color--hover: var(--primary);
+  --d-button-default-icon-color--hover: var(--primary);
+  --d-button-default-border--hover: 1px solid var(--primary-medium);
+
+  --d-button-primary-bg-color: var(--primary);
+  --d-button-primary-text-color: var(--secondary);
+  --d-button-primary-icon-color: var(--secondary);
+  --d-button-primary-bg-color--hover: var(--primary-high);
+  --d-button-primary-text-color--hover: var(--secondary);
+  --d-button-primary-icon-color--hover: var(--secondary);
+
+  --shadow-header: 0 1px 0 var(--primary-low);
+  --shadow-card: none;
+  --shadow-dropdown: 0 8px 24px rgb(var(--always-black-rgb), 0.08);
+  --shadow-menu-panel: var(--shadow-dropdown);
+}
+
+body {
+  font-weight: 400;
+}
+
+.btn,
+.btn-default,
+.btn-primary,
+.btn-flat,
+.select-kit.combo-box .select-kit-header,
+input[type="text"],
+input[type="search"],
+textarea {
+  border-radius: var(--d-button-border-radius);
+}
+
+.select-kit.combo-box .select-kit-header,
+input[type="text"],
+input[type="search"],
+textarea {
+  border-radius: var(--d-input-border-radius);
+}
