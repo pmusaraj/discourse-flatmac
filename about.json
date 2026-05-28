@@ -11,6 +11,10 @@
     "uncut_sans_regular": "assets/UncutSans-Regular.woff2",
     "uncut_sans_bold": "assets/UncutSans-Bold.woff2"
   },
+  "screenshots": [
+    "screenshots/light.webp",
+    "screenshots/dark.webp"
+  ],
   "color_schemes": {
     "flatmac": {
       "primary": "000000",
