@@ -24,6 +24,14 @@
   --d-button-border-radius: 999px;
   --d-input-border-radius: 10px;
   --d-nav-pill-border-radius: 999px;
+  --d-nav-bg-color: var(--primary-very-low);
+  --d-nav-bg-color--hover: var(--primary-low);
+  --d-nav-bg-color--active: var(--primary-low);
+  --d-nav-color: var(--primary);
+  --d-nav-color--hover: var(--primary);
+  --d-nav-color--active: var(--primary);
+  --d-nav-border-color--active: transparent;
+  --d-nav-underline-height: 0;
 
   --d-hover: var(--primary-very-low);
   --d-selected-text-color: var(--primary);
