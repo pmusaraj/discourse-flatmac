@@ -25,6 +25,20 @@
       "danger": "B00020",
       "success": "1F7A1F",
       "love": "B00020"
+    },
+    "flatmac-dark": {
+      "primary": "FFFFFF",
+      "secondary": "000000",
+      "tertiary": "FFFFFF",
+      "quaternary": "1A1A1A",
+      "header_background": "000000",
+      "header_primary": "FFFFFF",
+      "highlight": "2A2A2A",
+      "selected": "242424",
+      "hover": "111111",
+      "danger": "FF6B6B",
+      "success": "7CDE7C",
+      "love": "FF6B6B"
     }
   },
   "modifiers": {
