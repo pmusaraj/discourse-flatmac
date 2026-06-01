@@ -73,6 +73,8 @@
   --d-button-primary-icon-color--hover: var(--secondary);
 
   --d-sidebar-active-background: var(--flatmac-bg-strong);
+  --d-sidebar-highlight-background: var(--flatmac-bg-strong);
+  --d-sidebar-border-color: transparent;
 
   --shadow-header: 0 1px 0 var(--primary-low);
   --shadow-card: none;
@@ -114,4 +116,36 @@ textarea {
 
 .alert {
   border-radius: var(--token-radius-normal);
+}
+
+.sidebar-section {
+  background-color: var(--flatmac-bg-subtle);
+  border-radius: var(--d-border-radius-large);
+  margin-bottom: var(--space-8);
+  border-bottom: none;
+}
+
+body:not(.archetype-private_message) .topic-map {
+  background-color: var(--flatmac-bg-subtle);
+  border-radius: var(--d-border-radius-large);
+  border-top-color: transparent;
+
+  &.--bottom {
+    margin-top: var(--space-4);
+    border-bottom-color: transparent;
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+  }
+}
+
+.post-stream .topic-post:first-child + .time-gap.small-action {
+  .topic-avatar,
+  .timegap {
+    border-top-color: transparent;
+  }
+}
+
+.topic-status-info,
+.topic-timer-info {
+  border-top-color: transparent;
 }
