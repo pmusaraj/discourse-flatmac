@@ -29,6 +29,7 @@
   --d-nav-pill-border-radius: 999px;
 
   --flatmac-bg-subtle: var(--primary-very-low);
+  --flatmac-bg-subtler: var(--primary-100);
   --flatmac-bg-strong: var(--primary-low);
   --flatmac-border-subtle: var(--primary-low);
 
@@ -80,6 +81,8 @@
   --shadow-card: none;
   --shadow-dropdown: 0 8px 24px rgb(var(--always-black-rgb), 0.08);
   --shadow-menu-panel: var(--shadow-dropdown);
+
+  --d-table-border-top-height: 1px;
 }
 
 body {
@@ -161,5 +164,38 @@ body:not(.archetype-private_message) .topic-map {
   padding: var(--space-2);
   .controls {
     padding: 0;
+  }
+}
+
+.groups-boxes .group-box {
+  background-color: var(--flatmac-bg-subtle);
+  border-width: 0;
+  &:hover {
+    background-color: var(--flatmac-bg-strong);
+  }
+}
+
+#list-area {
+  .topic-list .posters {
+    max-width: 46px;
+    text-align: right;
+    vertical-align: top;
+  }
+
+  .topic-list th.default {
+    margin-left: -100px;
+  }
+
+  .topic-list .posters > a {
+    display: none;
+    margin-right: 0px;
+    margin-left: -14px;
+    float: none;
+  }
+
+  .topic-list .posters > a:first-child,
+  .topic-list .posters > a:nth-child(2),
+  .topic-list .posters > a:last-child {
+    display: inline;
   }
 }

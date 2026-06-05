@@ -11,10 +11,7 @@
     "uncut_sans_regular": "assets/UncutSans-Regular.woff2",
     "uncut_sans_bold": "assets/UncutSans-Bold.woff2"
   },
-  "screenshots": [
-    "screenshots/light.webp",
-    "screenshots/dark.webp"
-  ],
+  "screenshots": ["screenshots/light.webp", "screenshots/dark.webp"],
   "color_schemes": {
     "flatmac": {
       "primary": "000000",
@@ -31,18 +28,18 @@
       "love": "B00020"
     },
     "flatmac-dark": {
-      "primary": "FFFFFF",
-      "secondary": "000000",
+      "primary": "F3F3F3",
+      "secondary": "15151A",
       "tertiary": "FFFFFF",
-      "quaternary": "1A1A1A",
-      "header_background": "000000",
-      "header_primary": "FFFFFF",
-      "highlight": "1A1A1A",
-      "selected": "1A1A1A",
-      "hover": "111111",
-      "danger": "FF6B6B",
-      "success": "7CDE7C",
-      "love": "FF6B6B"
+      "quaternary": "2C2C2C",
+      "header_background": "0B0B0B",
+      "header_primary": "F2F2F2",
+      "highlight": "242424",
+      "selected": "202020",
+      "hover": "151515",
+      "danger": "FF7A7A",
+      "success": "86D986",
+      "love": "FF7A7A"
     }
   }
 }
